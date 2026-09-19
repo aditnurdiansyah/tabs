@@ -244,3 +244,9 @@ This project provides a simple and practical implementation of an interactive ta
 By completing this project, the developer gains practical experience with **HTML structure, CSS Flexbox, CSS states, JavaScript DOM manipulation, event handling, content visibility, SEO metadata, Open Graph integration, favicon configuration, and external font integration**.
 
 The project can serve as a foundation for building more advanced reusable UI components and can later be extended with accessibility improvements, animations, URL-based navigation, persistent state, and dynamic content.
+
+# Project Preview
+
+<p align="center">
+  <img src="/assets/project-preview.png" alt="Project Preview" width="800">
+</p>
