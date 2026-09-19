@@ -201,3 +201,21 @@ The current project does not include:
 - ARIA tab roles and keyboard behavior
 - Automated tests
 - A build system or package manager
+
+## Accessibility Considerations
+
+The project currently uses native `<button>` elements for tab controls, which provides a good foundation for keyboard interaction.
+
+For a more complete accessible tabs implementation, future improvements could include:
+
+- `role="tablist"`
+- `role="tab"`
+- `role="tabpanel"`
+- `aria-selected`
+- `aria-controls`
+- `aria-labelledby`
+- Arrow-key navigation between tabs
+- Proper focus management
+- Handling `Home` and `End` keyboard navigation
+
+These improvements would make the component more closely follow the WAI-ARIA Tabs pattern.
