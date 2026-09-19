@@ -35,3 +35,10 @@
 .tab-content h2 {
   margin-top: 0;
 }
+
+.tab-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
