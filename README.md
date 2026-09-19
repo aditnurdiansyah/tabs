@@ -87,3 +87,12 @@ The project includes:
 - Open Graph title
 - Open Graph description
 - Open Graph image
+
+## Technologies Used
+
+- **HTML5** — Structure and content
+- **CSS3** — Layout and visual styling
+- **JavaScript** — Tab interaction and DOM manipulation
+- **Google Fonts** — Rosarivo typography
+- **Open Graph** — Social media link preview metadata
+- **Favicon** — Browser and device branding
