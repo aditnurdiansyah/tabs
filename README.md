@@ -96,3 +96,29 @@ The project includes:
 - **Google Fonts** — Rosarivo typography
 - **Open Graph** — Social media link preview metadata
 - **Favicon** — Browser and device branding
+
+## Project Structure
+
+```text
+tabs/
+├── assets/
+│   ├── favicon/
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   └── favicon.svg
+│   ├── images/
+│   │   └── placeholder.png
+│   └── open-graph/
+│       ├── aditnurdiansyah-full-stack-developer-og.jpg
+│       └── aditnurdiansyah-full-stack-developer-og.pdf
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── index.html
+└── README.md
+```
