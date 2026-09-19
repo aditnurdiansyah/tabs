@@ -219,3 +219,20 @@ For a more complete accessible tabs implementation, future improvements could in
 - Handling `Home` and `End` keyboard navigation
 
 These improvements would make the component more closely follow the WAI-ARIA Tabs pattern.
+
+## Future Improvements
+
+Potential improvements include:
+
+- Implement a fully accessible ARIA Tabs pattern.
+- Add keyboard arrow navigation.
+- Add smooth tab transition animations.
+- Add responsive mobile tab scrolling.
+- Use JavaScript event listeners instead of inline `onclick` handlers.
+- Add URL hash support so individual tabs can be linked directly.
+- Persist the selected tab using `localStorage`.
+- Add icons to tab buttons.
+- Add dynamic tab generation from JavaScript data.
+- Add automated testing.
+- Improve semantic relationships between tabs and tab panels.
+- Add a reusable tab component structure for larger projects.
