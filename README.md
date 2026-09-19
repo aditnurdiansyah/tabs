@@ -250,3 +250,7 @@ The project can serve as a foundation for building more advanced reusable UI com
 <p align="center">
   <img src="/assets/project-preview.png" alt="Project Preview" width="800">
 </p>
+
+This repository contains frontend projects built following the [Roadmap.sh](https://roadmap.sh/projects/simple-tabs) frontend developer path.
+
+---
