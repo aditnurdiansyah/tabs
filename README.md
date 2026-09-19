@@ -36,3 +36,54 @@ The project also includes a basic asset structure that can be extended for futur
 
 - **Google Fonts**
   Use the Rosarivo font from Google Fonts for the website typography.
+
+## Features
+
+### 1. Four Interactive Tabs
+
+The interface contains four tabs:
+
+- First Tab
+- Second Tab
+- Third Tab
+- Fourth Tab
+
+Each tab is connected to its own content section.
+
+### 2. Default Tab
+
+The first tab is displayed when the page is initially loaded.
+
+JavaScript also initializes the first `.tab-content` element when the DOM has finished loading.
+
+### 3. Active Tab Indicator
+
+The selected tab receives the `.active` CSS class, which changes its appearance and adds a bottom border to indicate the current tab.
+
+### 4. Hover Effect
+
+Tab buttons include a hover state that changes the background and applies rounded top corners.
+
+### 5. Responsive Image
+
+The image inside the first tab uses:
+
+```css
+max-width: 100%;
+height: auto;
+```
+
+This allows the image to scale within its container.
+
+### 6. SEO and Social Sharing
+
+The project includes:
+
+- Meta description
+- Meta keywords
+- Author metadata
+- Open Graph type
+- Open Graph URL
+- Open Graph title
+- Open Graph description
+- Open Graph image
