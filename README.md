@@ -122,3 +122,31 @@ tabs/
 ├── index.html
 └── README.md
 ```
+
+## How It Works
+
+The tab interface uses a simple JavaScript function:
+
+```javascript
+function openTab(evt, tabName) {
+  var tabContent = document.querySelectorAll('.tab-content');
+  tabContent.forEach(content => content.style.display = 'none');
+
+  var tabLinks = document.querySelectorAll('.tab-link');
+  tabLinks.forEach(link => link.classList.remove('active'));
+
+  document.getElementById(tabName).style.display = 'block';
+  evt.currentTarget.classList.add('active');
+}
+```
+
+When a tab button is clicked, the function:
+
+1. Finds all elements with the `.tab-content` class.
+2. Hides all tab contents.
+3. Finds all elements with the `.tab-link` class.
+4. Removes the `.active` class from every tab.
+5. Displays the selected tab content.
+6. Adds the `.active` class to the clicked tab.
+
+This creates a simple single-page tab navigation experience without requiring a page reload.
