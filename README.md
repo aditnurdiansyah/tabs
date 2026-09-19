@@ -172,3 +172,32 @@ cd tabs
 Open `index.html` directly in a modern web browser.
 
 Alternatively, use the **Live Server** extension in Visual Studio Code for local development.
+
+## Current Implementation Notes
+
+The current project is intentionally simple and focuses on the core functionality of a tab component.
+
+The current implementation includes:
+
+- Four static tabs
+- JavaScript-based tab switching
+- Active tab styling
+- Hover styling
+- Basic responsive image behavior
+- SEO metadata
+- Open Graph metadata
+- Favicon assets
+- Google Fonts
+
+The current project does not include:
+
+- A JavaScript framework
+- Backend integration
+- Database integration
+- Dynamic data loading
+- URL/hash-based tab navigation
+- Persistent tab state
+- Advanced keyboard navigation
+- ARIA tab roles and keyboard behavior
+- Automated tests
+- A build system or package manager
