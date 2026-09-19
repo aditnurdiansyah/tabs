@@ -150,3 +150,25 @@ When a tab button is clicked, the function:
 6. Adds the `.active` class to the clicked tab.
 
 This creates a simple single-page tab navigation experience without requiring a page reload.
+
+## How to Use
+
+No build tools or package installation are required.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/aditnurdiansyah/tabs.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd tabs
+```
+
+### 3. Open the Website
+
+Open `index.html` directly in a modern web browser.
+
+Alternatively, use the **Live Server** extension in Visual Studio Code for local development.
